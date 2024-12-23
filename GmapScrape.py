@@ -10,7 +10,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 class GoogleMapScraper:
     def __init__(self):
-        self.output_file_name = "TATA_AIA_LIFE_1.csv"
+        self.output_file_name = "Output_file.csv"
         self.headless = False
         self.driver = None
         self.unique_check = []
@@ -155,32 +155,9 @@ class GoogleMapScraper:
 business_scraper = GoogleMapScraper()
 business_scraper.config_driver()
 
-# arunachal_pradesh = [
-    
-#     "EastSiang",
-#     "Itanagar",
-#     "KraDaadi",
-#     "KurungKumey",
-#     "Lohit",
-#     "Longding",
-#     "LowerDibang Valley",
-#     "LowerSubansiri",
-#     "Namsai",
-#     "PapumPare",
-#     "ShiYomi",
-#     "Siang",
-#     "Tawang",
-#     "Tirap",
-#     "UpperSiang",
-#     "UpperSubansiri",
-#     "WestKameng",
-#     "WestSiang"
-# ]
-
-
 cities = [
 "AndhraPradesh",
-# "ArunachalPradesh",
+"ArunachalPradesh",
 "Assam",    
 "bihar",
 "Chhattisgarh",
